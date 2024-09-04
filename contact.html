@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whisperwave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/heard-it-logo.png" alt="App Icon" class="logo-icon">
+                <span class="logo-text">Whisperwave</span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="search-container">
+                <i class="search-icon">&#128269;</i>
+                <input type="text" placeholder="Search..." class="search-input">
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Whether you have a question about our platform, need assistance, or want to provide feedback, feel free to reach out to us.</p>
+
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <p>Email: <a href="mailto:whisperwave25@gmail.com">whisperwave25@gmail.com</a></p>
+                    <p>Phone: +27 663 720 486</p>
+                    <p>Address: 3 Studente Avenue ,<br>Hurst Hill, Johannesburg 2092</p>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <!-- Replace "YOUR_FORM_ID" with your actual Formspree ID -->
+                    <form action="https://formspree.io/f/mpwanrrn" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="account-deletion">
+                <h2>Need to Delete Your Account?</h2>
+                <p>If you would like to delete your account or have any other queries, please email us at <a href="mailto:whisperwave25@gmail.com">whisperwave25@gmail.com</a>. You can also send a message using the above form. Please do not mention any sensitive data like passwords on the form. We will never ask for your password. We will be in touch with you shortly.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="custom-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Whisperwave</h2>
+            </div>
+            <div class="footer-info">
+                <div class="footer-contact">
+                    <p>+27 663 720 486<br>mailto:whisperwave25@gmail.com</p>
+                </div>
+                <div class="footer-address">
+                    <p>3 Studente Avenue ,<br>Hurst Hill, Johannesburg<br>2092</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Whisperwave. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
